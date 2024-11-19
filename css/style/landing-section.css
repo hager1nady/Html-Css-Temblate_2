@@ -1,0 +1,131 @@
+.landing {
+    min-height: 100vh;
+    background-color: #066ed6;
+    background-image: url('../../images/landing.png');
+    background-size: cover;
+    position: relative;
+}
+
+.landing .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.221);
+}
+
+.landing .text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    width: 60%;
+    padding: 60px 40px;
+    background-color: var(--transparent-color);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.landing .text .less-than {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    border: 1px solid white;
+    padding: 13px 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.landing .text .less-than:hover {
+    cursor: pointer;
+}
+
+
+.landing .text .content {
+    margin-left: 12rem;
+
+}
+
+.landing .text .content h2 {
+    line-height: 3rem;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.landing .text .content p {
+    font-size: 12.5px;
+    line-height: 2rem;
+}
+
+.landing .text .content p::first-letter {
+    text-transform: capitalize;
+}
+
+.landing .great-than {
+    border: 1px solid white;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 13px 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.landing .great-than:hover {
+    cursor: pointer;
+    background-color: var(--main-color);
+    border: none;
+}
+
+.landing .bullets {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.landing .bullets ul {
+    display: flex;
+}
+
+.landing .bullets li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-left: 4px;
+    margin-bottom: 50px;
+    border: 1px solid white;
+}
+
+.landing .bullets li.active {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+}

@@ -1,0 +1,26 @@
+@media(max-width:767px) {
+    .landing .text {
+        width: 100%;
+        text-align: center;
+        padding: 60px 0;
+    }
+
+    .landing .text .content {
+        margin-left: 0;
+    }
+
+    .landing .text .content h2 {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    .landing .text .content p {
+        font-size: 12.5px;
+        font-weight: bold;
+    }
+
+    .landing .text .less-than,
+    .landing .great-than {
+        display: none;
+    }
+}

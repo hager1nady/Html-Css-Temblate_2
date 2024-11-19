@@ -1,0 +1,15 @@
+@media(max-width:767px) {
+    .ourskills .container>div {
+        flex-basis: 100%;
+    }
+
+    .ourskills .testimonials .content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ourskills .testimonials .content img {
+        margin-bottom: 30px;
+    }
+}

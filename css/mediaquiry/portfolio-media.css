@@ -1,0 +1,17 @@
+@media(max-width:768px) {
+    .portfolio .imgs-container .box {
+        width: 100%;
+    }
+}
+
+@media(min-width:768px) {
+    .portfolio .imgs-container .box {
+        width: 50%;
+    }
+}
+
+@media(min-width:1199px) {
+    .portfolio .imgs-container .box {
+        width: 25%;
+    }
+}

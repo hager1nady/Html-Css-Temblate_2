@@ -1,0 +1,27 @@
+@media(max-width:767px) {
+    .contactus .content {
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width:767px) {
+    .contactus .info {
+        order: -1;
+        text-align: center;
+    }
+
+    .contactus .info h4:nth-of-type(2) {
+        margin-top: 40px;
+    }
+
+    .contactus .info address {
+        margin-bottom: 40px;
+    }
+
+
+
+
+ 
+   
+}

@@ -1,0 +1,18 @@
+@media(max-width:767px) {
+    .services .header-services p {
+        width: 100%;
+    }
+
+    .services .body-services {
+        flex-direction: column;
+    }
+
+    .services .body-services .content-services {
+        width: calc(100% - 4rem);
+    }
+
+    .services .body-services .content-services .text-services p {
+        width: 19.2rem;
+    }
+
+}

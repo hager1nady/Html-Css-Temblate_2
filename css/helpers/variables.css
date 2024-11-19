@@ -1,0 +1,7 @@
+:root {
+    --main-color: #19c8fa;
+    --transparent-color: rgb(15, 116, 143, 0.8);
+    --heading-color: rgb(31, 32, 33);
+    --paragraph-color: #a8a8a8;
+    --section-padding: 6rem;
+}

@@ -1,0 +1,17 @@
+@media(max-width:767px) {
+    .stats .container .box {
+        flex-basis: 100%;
+    }
+}
+
+@media(min-width:768px) {
+    .stats .container .box {
+        flex-basis: 50%;
+    }
+}
+
+@media(min-width:992px) {
+    .stats .container .box {
+        flex-basis: 25%;
+    }
+}

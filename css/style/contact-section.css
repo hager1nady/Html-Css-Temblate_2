@@ -1,0 +1,71 @@
+.contactus {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+
+.contactus .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactus .content form {
+    flex-basis: 70%;
+}
+
+.contactus .content form .main-input {
+    display: block;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.contactus .content form .main-input::placeholder {
+    text-transform: capitalize;
+}
+
+.contactus .content form .main-input:focus {
+    outline: none;
+}
+
+.contactus .content form textarea .main-input {
+    height: 200px;
+}
+
+.contactus .content form input[type="submit"] {
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px;
+    border: none;
+    display: flex;
+    margin-left: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.contactus .info {
+    flex-basis: 25%;
+}
+
+.contactus .info h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contactus .info .phone {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--paragraph-color);
+}
+
+.contactus .info h4:nth-of-type(2) {
+    margin-top: 80px;
+}
+
+.contactus .info address {
+    line-height: 1.5;
+    color: var(--paragraph-color);
+    text-transform: capitalize;
+}

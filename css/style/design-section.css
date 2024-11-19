@@ -1,0 +1,67 @@
+.design {
+    padding-top: var(--section-padding);
+    height: 600px;
+    background-color: rgb(31, 32, 33);
+    background-image: url('../../images/future-webdesign.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 14rem;
+    position: relative;
+    overflow: hidden;
+
+}
+
+/*overlay*/
+.design::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(31, 32, 33, 0.767);
+}
+
+.design .design-image {
+    position: relative;
+    bottom: -110px;
+}
+
+.design .design-image .mobile-big {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: -500px;
+}
+
+.design .design-image .mobile-pink {
+    position: absolute;
+    left: -380px;
+    top: 62px;
+    z-index: 1;
+}
+
+.design .design-text {
+    color: white;
+    background-color: var(--transparent-color);
+    height: fit-content;
+    padding: 50px 250px 50px 100px;
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
+
+.design .design-text h3 {
+    font-weight: normal;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+.design .design-text li {
+    margin: 20px 0;
+}
+
+.design .design-text li span {
+    margin-right: 20px;
+}

@@ -1,0 +1,50 @@
+@media (max-width:1199px) {
+    .design {
+        flex-direction: column;
+        position: relative;
+        height: 1000px;
+
+    }
+
+    .design .design-image {
+        position: absolute;
+        top: 0;
+        height: 200px;
+        left: 0;
+    }
+
+
+
+    .design .design-image .mobile-big {
+        z-index: 2;
+        position: absolute;
+        top: 20%;
+        left: 10px;
+        height: 300px;
+
+    }
+
+    .design .design-image .mobile-pink {
+        position: absolute;
+        left: 80px;
+        top: 35%;
+        z-index: 1;
+        height: 270px;
+
+    }
+
+    .design .design-text {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        height: 250px;
+        padding: 30px 10px 300px 10px;
+    }
+
+    .design .design-text h3 {
+        font-weight: normal;
+        font-size: 24px;
+        margin-bottom: 5px;
+        width: 400px;
+    }
+}

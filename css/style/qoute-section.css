@@ -1,0 +1,50 @@
+.qoute {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-image: url('../../images/qoute.jpg');
+    background-size: cover;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.qoute::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(31, 32, 33, 0.963);
+}
+
+.qoute .container {
+    position: relative;
+}
+
+.qoute q {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* .qoute q::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f10d";
+    font-weight: 900;
+    margin-right: 0px;
+    position: relative;
+    top: 1px;
+} */
+
+q::before {
+    content: open-quote;
+    font-family: FontAwesome;
+    font-weight: bold;
+}
+
+.qoute q::after {
+    content: close-quote;
+    font-family: FontAwesome;
+    font-weight: bold;
+}

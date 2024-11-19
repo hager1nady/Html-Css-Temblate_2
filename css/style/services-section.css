@@ -1,0 +1,41 @@
+.services {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+
+
+.services .body-services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* gap: 2rem; */
+    gap: 4rem;
+}
+
+.services .body-services .content-services {
+    width: calc(50% - 4rem);
+    display: flex;
+    gap: 2rem;
+}
+
+.services .body-services .content-services .icon-services {
+    font-size: 3rem;
+}
+
+.services .body-services .content-services .text-services h3 {
+    color: var(--main-color);
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 2px;
+}
+
+.services .body-services .content-services .text-services {
+    color: var(--paragraph-color);
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 1.5rem;
+}
+
+.services .body-services .content-services .text-services p::first-letter {
+    text-transform: capitalize;
+}
